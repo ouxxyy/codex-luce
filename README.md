@@ -1,25 +1,39 @@
-# Codex Dream Skin Studio
+# Codex Luce
 
-Unofficial macOS theme studio for the official Codex Desktop app.
+**首个动态三连表 Codex 皮肤。**
 
-把喜欢的背景图变成一套可交互的 Codex 桌面皮肤。它通过本机 loopback CDP 注入主题层，不修改官方 `.app`、`app.asar` 或代码签名；恢复时可以回到 Codex 原始外观。
+Codex Luce turns the official Codex Desktop app into a dark mechanical cockpit with live, read-only instrumentation. The home surface carries a horizontal three-gauge dashboard, while task threads reveal a vertical three-gauge dock for `OUTPUT`, `ACTIVITY`, and `CONTEXT`.
 
-> Not affiliated with OpenAI. Codex and OpenAI are trademarks of their respective owners.
+The visual language references the three-dial composition of Ferrari Luce concept interiors and the transparent, dot-matrix, mechanical interface spirit often associated with Nothing. It does not use Ferrari, Nothing, OpenAI, or Codex official logos, marks, product assets, or endorsement.
 
-## 适用环境
+> Unofficial project. Not affiliated with, endorsed by, or sponsored by OpenAI, Ferrari, or Nothing.
+
+![Codex Luce home triple gauge](./assets/showcase/codex-luce-home-triple-gauge.png)
+
+![Codex Luce task triple dock](./assets/showcase/codex-luce-task-triple-dock.png)
+
+## What Makes It Different
+
+- Dynamic three-gauge skin for Codex, built around live work-state instrumentation.
+- Ferrari Luce-inspired triple dial layout, adapted for AI coding workflows.
+- Nothing-inspired black glass, orange signal color, dot matrix texture, and mechanical restraint.
+- Native Codex controls stay real and interactive; the gauges are read-only overlays.
+- No patching of the official `.app`, `app.asar`, or code signature.
+
+## Requirements
 
 - macOS on Apple Silicon or Intel Mac
 - Official Codex Desktop installed and launched at least once
 - `~/.codex/config.toml` already exists
 - No third-party npm packages required
 
-This repo intentionally has no runtime npm dependencies. The installer validates and uses the Node.js executable bundled with the signed official Codex/ChatGPT desktop app, so users do not need to install a global Node.js just to use the skin.
+The installer validates and uses the Node.js executable bundled with the signed official Codex/ChatGPT desktop app, so users do not need to install a global Node.js just to use the skin.
 
-## 一键安装
+## Quick Start
 
 ```bash
-git clone https://github.com/ouxxyy/codex-dream-skin-studio.git
-cd codex-dream-skin-studio
+git clone https://github.com/ouxxyy/codex-luce.git
+cd codex-luce
 
 # Optional: run the local safety checks first.
 npm test
@@ -27,8 +41,11 @@ npm test
 # Close Codex, then install the engine and Desktop launchers.
 ./scripts/install-dream-skin-macos.sh --no-launch
 
+# Enable Codex Luce.
+~/.codex/codex-dream-skin-studio/scripts/switch-theme-macos.sh --id preset-codex-luce
+
 # Start the themed Codex session.
-./scripts/start-dream-skin-macos.sh
+~/.codex/codex-dream-skin-studio/scripts/start-dream-skin-macos.sh
 ```
 
 The installer creates these stable local paths:
@@ -42,20 +59,21 @@ The installer creates these stable local paths:
 Desktop launchers created after install:
 
 - `Codex Dream Skin.command`: start or re-apply the skin
-- `Codex Dream Skin - Customize.command`: choose your own background image
 - `Codex Dream Skin - Verify.command`: verify runtime health and save a screenshot
 - `Codex Dream Skin - Restore.command`: stop the injector and restore original Codex appearance
+- `Codex Dream Skin - Customize.command`: choose your own background image
 
-## 切换内置主题
+## Presets
+
+Codex Luce is the featured preset:
 
 ```bash
-~/.codex/codex-dream-skin-studio/scripts/switch-theme-macos.sh --id preset-midnight-aurora
 ~/.codex/codex-dream-skin-studio/scripts/switch-theme-macos.sh --id preset-codex-luce
 ```
 
-Bundled presets live under [`presets/`](./presets/). The public repository only includes abstract or project-owned assets. Personal task screenshots, local rollout records, customer delivery prompts, and private reference materials are not included.
+The repo also keeps a few abstract fallback presets under [`presets/`](./presets/), but the public release is centered on the Codex Luce triple-gauge skin.
 
-## 使用自己的图片
+## Using Your Own Image
 
 ```bash
 ~/.codex/codex-dream-skin-studio/scripts/customize-theme-macos.sh
@@ -107,7 +125,8 @@ npm test
 This project is designed to avoid shipping local user data:
 
 - No Codex task content is committed.
-- No local rollout logs, screenshots, backups, or Application Support state are committed.
+- No local rollout logs, backups, or Application Support state are committed.
+- Showcase screenshots are cropped to avoid private sidebars, task text, and local paths.
 - No API keys, tokens, cookies, or model-provider configuration are needed.
 - The theme image analysis runs locally in the Codex renderer Canvas.
 - CDP binds to `127.0.0.1`; treat that local debugging port as sensitive while the themed session is running.
@@ -120,7 +139,7 @@ When contributing, keep private files out of the repo. The `.gitignore` blocks c
 ./scripts/build-release.sh
 ```
 
-The archive is written to `release/codex-dream-skin-studio-v<version>.zip` with a `SHA256SUMS.txt` file.
+The archive is written to `release/codex-luce-v<version>.zip` with a `SHA256SUMS.txt` file.
 
 ## About 欧八同学
 

@@ -1,6 +1,8 @@
 # Notices
 
-Codex Dream Skin Studio is an unofficial customization project and is not affiliated with, endorsed by, or sponsored by OpenAI.
+Codex Luce is an unofficial customization project and is not affiliated with, endorsed by, or sponsored by OpenAI, Ferrari, or Nothing.
+
+Ferrari, Nothing, OpenAI, Codex, and ChatGPT names are referenced only to describe compatibility or design inspiration. This repository does not include official logos, marks, trade dress, product artwork, app binaries, or endorsement from those companies.
 
 ## Software License
 
@@ -11,6 +13,7 @@ Commercial use is not permitted in any form. Do not sell, sublicense, bundle int
 It does not grant rights to:
 
 - OpenAI or Codex trademarks, product names, logos, or trade dress
+- Ferrari or Nothing trademarks, product names, logos, or trade dress
 - Official Codex or ChatGPT desktop application binaries
 - `.app` bundles, `app.asar`, or any signed OpenAI application files
 - User-supplied images or third-party artwork added by downstream users
@@ -19,6 +22,8 @@ It does not grant rights to:
 ## Bundled Assets
 
 The public repository only includes abstract or project-owned demo assets. They are intended to demonstrate the theme system and can be replaced by the user.
+
+The showcase screenshots are cropped runtime previews of Codex Luce. They are documentation images, not theme backgrounds, and should not be used to reconstruct private task content or imply official endorsement.
 
 Do not redistribute images that you do not own or have permission to share. Pull requests that add presets should use original, licensed, public-domain, or procedurally generated assets.
 
