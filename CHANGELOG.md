@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.3.3 — 2026-07-19
+
+- Repositioned the public release around Codex Luce, the dynamic triple-gauge Codex skin.
+- Added sanitized real-runtime showcase images for the home triple gauge and task triple dock.
+- Updated public copy, package metadata, release archive name, and preset subtitle for the Ferrari Luce / Nothing-inspired positioning.
+- Kept the custom non-commercial license and clarified trademark / inspiration boundaries.
+
 ## 1.3.2 — 2026-07-19
 
 - Restored the Codex Luce task gauge dock scale/slide animation when the native side panel opens or closes. Side-panel state is now independent from cached composer geometry, and batched native mutations can no longer hide a later `aria-pressed` change.
