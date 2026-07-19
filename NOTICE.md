@@ -4,7 +4,9 @@ Codex Dream Skin Studio is an unofficial customization project and is not affili
 
 ## Software License
 
-The MIT License in `LICENSE` applies to the software source code in this repository, including shell scripts, JavaScript modules, CSS, tests, and documentation.
+The custom non-commercial license in `LICENSE` applies to the software source code in this repository, including shell scripts, JavaScript modules, CSS, tests, and documentation.
+
+Commercial use is not permitted in any form. Do not sell, sublicense, bundle into paid products, use in paid customer delivery, use in commercial consulting, use in agency work, use in a SaaS or enterprise workflow, or otherwise use this project for revenue-generating activity without separate written permission from the rights holder.
 
 It does not grant rights to:
 
@@ -19,6 +21,8 @@ It does not grant rights to:
 The public repository only includes abstract or project-owned demo assets. They are intended to demonstrate the theme system and can be replaced by the user.
 
 Do not redistribute images that you do not own or have permission to share. Pull requests that add presets should use original, licensed, public-domain, or procedurally generated assets.
+
+Bundled assets follow the same non-commercial restriction unless a file explicitly states a different license.
 
 ## Runtime
 
