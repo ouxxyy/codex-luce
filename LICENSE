@@ -1,16 +1,33 @@
-MIT License
+Codex Dream Skin Studio Non-Commercial License
 
 Copyright (c) 2026 Codex Dream Skin Studio contributors
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is granted, free of charge, to use, copy, modify, publish, and
+distribute this software and its documentation for personal, educational,
+research, and other non-commercial purposes only, subject to the conditions
+below.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Commercial use is not permitted in any form. This includes, without limitation:
+
+- selling, licensing, sublicensing, renting, or offering the software or
+  modified versions of it for a fee;
+- using the software, modified versions, bundled assets, installer scripts, or
+  derived theme packs in a paid product, paid service, commercial consulting
+  engagement, agency delivery, customer deployment, training product, template
+  marketplace, SaaS, enterprise/internal business workflow, or other
+  revenue-generating activity;
+- using the software to promote, bundle, or support a commercial product or
+  service;
+- removing or obscuring this license, copyright notice, non-commercial
+  restriction, or attribution notices.
+
+Redistributions and modified versions must include this license and preserve
+the non-commercial restriction.
+
+This license does not grant rights to OpenAI or Codex trademarks, official app
+binaries, user-supplied images, third-party artwork, character likenesses,
+celebrity imagery, copyrighted screenshots, or other materials not owned by the
+licensor.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,

@@ -146,4 +146,6 @@ Follow on X: [@albertouoo](https://x.com/albertouoo?s=11)
 
 ## License
 
-MIT - see [`LICENSE`](./LICENSE). Additional notices in [`NOTICE.md`](./NOTICE.md) cover trademarks, runtime boundaries, and bundled assets.
+Non-commercial use only. Any form of commercial use is prohibited, including resale, paid customer delivery, SaaS/enterprise use, consulting or agency work, commercial training products, template marketplaces, or bundling with paid products/services.
+
+See [`LICENSE`](./LICENSE). Additional notices in [`NOTICE.md`](./NOTICE.md) cover trademarks, runtime boundaries, and bundled assets.
