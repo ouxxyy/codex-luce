@@ -15,6 +15,9 @@
   <sub>↑ 首页横向三连表 · 仪表随会话上下文实时变化</sub>
 </p>
 
+> [!TIP]
+> 🎁 扫码关注公众号「欧八同学」，免费领取 AI 案例与 Skill《大厂产品AI经验编程 200 套》→ [去扫码](#author)
+
 ---
 
 ## 这是什么
@@ -213,6 +216,8 @@ npm test
 
 归档会写到 `release/codex-luce-v<version>.zip`，并附带一份 `SHA256SUMS.txt`。
 
+<a id="author"></a>
+
 ## 关于 欧八同学
 
 全网同名：**欧八同学**
@@ -228,11 +233,13 @@ npm test
 - 真实使用的 AI 工具方法
 - 副业探索记录
 
-X：[@albertouoo](https://x.com/albertouoo?s=11)　·　关注公众号👇
+X：[@albertouoo](https://x.com/albertouoo?s=11)　·　微信公众号：扫码关注，免费领取 AI 案例与 Skill《大厂产品AI经验编程 200 套》👇
 
 <p align="center">
   <img src="./assets/community/wechat-qrcode.jpg" alt="欧八同学公众号二维码" width="220">
 </p>
+
+<p align="center"><sub>扫码关注「欧八同学」，免费领取《大厂产品AI经验编程 200 套》</sub></p>
 
 ## License
 
